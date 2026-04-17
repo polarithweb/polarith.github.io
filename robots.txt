@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Allow important resources
+Allow: /*.css$
+Allow: /*.js$
+Allow: /assets/
+
+# Block unnecessary or sensitive folders (optional)
+Disallow: /private/
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /backup/
+
+# Sitemap location
+Sitemap: https://polarith.github.io/sitemap.xml
